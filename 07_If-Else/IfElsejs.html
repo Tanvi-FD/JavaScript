@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04task</title>
+</head>
+
+<body>
+    <script>
+        let time = prompt("su time che?");
+
+        if (time < 0) {
+            alert("pagal jeva loko aavo koi time na hoy");
+        } else if (time < 12 && time >= 0) {
+            document.write("good morning");
+        } else if (time < 17 && time >= 12) {
+            document.write("good after noon");
+        } else if (time < 20 && time >= 17) {
+            document.write("good evening");
+        } else if (time <= 24 && time >= 20) {
+            document.write("good night");
+        } else {
+            alert("aa vyajbi nathi");
+        }
+    </script>
+</body>
+
+</html>
